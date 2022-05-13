@@ -1,0 +1,20 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../sass/main.scss",
+        "../sass/utils/_vars.scss",
+        "../sass/base/_reset.scss",
+        "../sass/layout/_footer.scss",
+        "../sass/layout/_header.scss",
+        "../sass/layout/_hero.scss",
+        "../sass/layout/_benefits.scss",
+        "../sass/layout/_projects.scss",
+        "../sass/layout/_team.scss",
+        "../sass/layout/_customer.scss",
+        "../sass/layout/_portfolio-nav.scss",
+        "../sass/layout/portfolio-project.scss"
+    ],
+    "names": [],
+    "file": "main.min.css"
+}
