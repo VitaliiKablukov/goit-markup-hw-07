@@ -1,0 +1,23 @@
+.benefits__list {
+  @include display(flex, null, null);
+  margin-left: $margin-section-minus;
+}
+.benefits__item {
+  width: calc(100% / 4 - 30px);
+  margin-left: $margin-between;
+}
+.benefits__title {
+  @include font(null, 14px, 1.14, null);
+  text-transform: uppercase;
+  color: $color-second;
+  margin-bottom: 10px;
+}
+.benefits__text {
+  line-height: 1.7;
+}
+.benefits__container {
+  padding: 25px 100px;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  background-color: $background-button-porfolio;
+}

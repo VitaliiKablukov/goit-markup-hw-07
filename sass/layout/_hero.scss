@@ -1,0 +1,22 @@
+.hero {
+  background-color: $second-background-color;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  margin: 0 auto;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../image/hero-bc-img.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  &__title {
+    @include font(900, 44px, 1.36, 0.06em);
+    text-align: center;
+    text-transform: uppercase;
+    color: $color-third;
+    width: 696px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+}
